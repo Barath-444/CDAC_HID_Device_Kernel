@@ -1,0 +1,8 @@
+obj-m += hid_alert.o
+obj-m += exam_alert.o
+
+all:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+clean:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean

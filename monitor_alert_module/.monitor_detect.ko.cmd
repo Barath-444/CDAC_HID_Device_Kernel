@@ -1,0 +1,1 @@
+savedcmd_monitor_detect.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.14.0-15-generic/scripts/module.lds -o monitor_detect.ko monitor_detect.o monitor_detect.mod.o .module-common.o

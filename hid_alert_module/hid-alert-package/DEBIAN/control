@@ -1,0 +1,6 @@
+Package: hid-alert
+Version: 1.0
+Section: kernel
+Priority: optional
+Architecture: amd64
+Maintainer: by team s0s

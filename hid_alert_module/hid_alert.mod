@@ -1,0 +1,1 @@
+./hid_alert.o
