@@ -1,0 +1,21 @@
+# Build artifacts
+*.ko
+*.o
+*.mod.c
+*.mod.o
+*.mod
+*.order
+*.symvers
+*.cmd
+.tmp_versions/
+
+# Binary files
+monitor_watcher
+
+# Compressed files
+*.zip
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/

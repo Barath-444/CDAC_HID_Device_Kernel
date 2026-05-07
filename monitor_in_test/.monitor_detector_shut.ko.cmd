@@ -1,1 +1,0 @@
-savedcmd_monitor_detector_shut.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.14.0-15-generic/scripts/module.lds -o monitor_detector_shut.ko monitor_detector_shut.o monitor_detector_shut.mod.o .module-common.o

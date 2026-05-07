@@ -1,1 +1,0 @@
-./monitor_detector_shut.o
